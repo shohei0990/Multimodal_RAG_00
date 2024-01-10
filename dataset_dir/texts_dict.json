@@ -18,21 +18,21 @@
         "Attention Visualizations\n\n2 i i= RE 3 2 i 2 = = 2c 3 2 £ om % S GBANAAAA FS fe} oD DOD *H o Poe Q €oe2s oyzveyzuyeys 2SE @T_ EFESeSsEzESHR PL, SSSe TZSsSsggsg S=@LEGDEwB ECC oF aAeC RGN ESLSSSEESC -.VvVVVV VV HMO KEBOCSRSHLHOD QKXRDXE EO “A AAAAAA “= <2 £ 8 FogesouggsS ss P25 5273 Qvryxapvs\\3 es sa 5 Seeneteecorzgrs 2g ogs aaa oO 2 Sere =~ aA o ° 8 ueeeogoa0 o © £ 5 ane) vvvvv Vv £ eg € ° 2 Ss v Do <¢ 8 & |\n\nFigure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.\n\n13\n\n<ped> <ped> UOIUIdO == Aw ul Bulssiw ale « aM = yeum = S| sy ysnf 3q* pinoys = uoluldo Aw ul Bulssiw ae ysnf 38q Pinoys uojeojdde si! nq poped 38q JaAou Me] au <ped> <SOa> uojuido Aw ul Bulssiuw oe aM yeum S| SIU} ysnf 3q Pinoys uojeodde Ss}! ynq yoped 3q 4eAeuU meq auL <ped> <SOa> uo|uldo Aw ul Bulssiuw oe eM yeum S| Siu} ysnf 3q Pinoys uoyeoydde si! ynq yoped 3q aul\n\nFigure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.\n\n14\n\n<ped> <ped> <SOH>\\ <SO3> uoluido = uoluido Aw Aw yeyum S| sim pi—f}— 4 -ysn{ | Pinoys «+ pinoys uoeoydde uojeodde SHI S$}! | ya | nga ynq poped pooped aq aq Janou™ J@AoU WIM TIM me) me) aul “OU\n\n<ped> <ped> so <0 Uo|UIdO uoluido Aw Aw ul ul Bulssiw Bulssiw ae ale aM am yeuM yeum S| S| sty} # sly -—A - el eq eq pinoys « pinoys uojeoidde ee Ss}! Ss}! nq ee popod a —_ ee eq eq JOAoU JOAoU IW IW rr auL auL\n\nFigure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.\n\n15"
     ],
     "text_summaries": [
-        "Transformerモデルの構造はどのようになっていますか？",
-        "Transformerモデルの自己注意メカニズムの利点について詳しく説明してください。",
-        "Transformerの論文の著者と発表年の情報はどこに書かれていますか？",
-        "Scaled Dot-Product Attentionとはどのようなものですか？",
-        "3.2.3節で述べられている「encoder-decoder attention」とは何ですか？",
-        "TransformerモデルのFeed-Forward Networksの目的は何ですか？",
-        "3.5 Positional Encodingで用いられた正弦および余弦関数の式を教えてください。",
-        "Self-attention layers connect all positions with a constant number of sequentially executed operations, whereas recurrent layers require O(n) sequential operations. How does this difference affect the computational complexity of self-attention layers and recurrent layers?",
-        "Transformerモデルのトレーニングに用いられたデータは何ですか？",
-        "Residual Dropoutとは何ですか？",
-        "Transformerのモデルバリエーションは何ですか？",
-        "Table 3の行(A)では、セクション3.2.2で説明されているように、計算量を一定に保ちながらアテンションヘッドの数を変化させ、アテンションキーとバリューの次元を変化させました。シングルヘッドアテンションは最高の設定よりも0.9 BLEUが悪化しますが、ヘッドが多すぎると品質も低下します。",
-        "Transformerのモデルで言語以外の他のモーダリティへの適用は可能ですか？",
-        "記事のトピックは何ですか？",
-        "文献[26]では、解析のセルフトレーニングを効果的に行う方法について述べられていますが、この方法は、他のNLPタスクにも応用可能でしょうか？",
-        "Attention Visualizationsとは何ですか？"
+        "Attention Is All You Needの論文の著者は誰ですか？",
+        "Transformerとはどのようなモデルアーキテクチャですか？",
+        "図1のTransformerモデルアーキテクチャを説明してください。",
+        "Scaled Dot-Product AttentionとAdditive Attentionの違いは何ですか？",
+        "「Attention」とは何ですか？",
+        "3.4 Embeddings and Softmaxにおける「usual learned linear transfor- mation and softmax function」とはどのようなものですか？",
+        "**質問:** Positional encodingsが「sinusoid」である場合、モデルがどのような恩恵を受けるでしょうか？",
+        "Self-attentionの3つの重要な要件として、何が考えられますか？",
+        "Transformerモデルのトレーニングではどのようなハードウェアとスケジュールを使用しましたか？",
+        "ベースモデルと大きなモデルを比較した場合、各モデルのトレーニングコストと翻訳品質について、どのような違いがありますか？",
+        "Transformerのアーキテクチャの変種にはどのようなものがありますか？",
+        "Table 3の行(B)で、注意キーサイズdkを減らすとモデルの品質が低下することがわかりました。これは、互換性を決定するのが簡単ではなく、ドット積よりも洗練された互換性関数が有益であることを示唆していますか？",
+        "Transformerモデルの生成がより非逐次的になるようにするには、どうすればよいでしょうか？",
+        "[4, 13, 20] 番の論文が関連する研究にはどのようなものがありますか？",
+        "研究論文の[34]では、どのような新しいメモリネットワークが提案されているのでしょうか？",
+        "図4にある単語「its」に対する注意力とはどのようなものですか？"
     ]
 }
